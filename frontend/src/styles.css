@@ -1,0 +1,11 @@
+body { font-family: Inter, system-ui, Arial; background: linear-gradient(135deg,#e6fff6,#e6f6ff); margin:0; padding:0; color:#0f172a; }
+.app { max-width:1200px; margin:24px auto; }
+.header { display:flex; justify-content:space-between; align-items:center; padding:12px 18px; }
+.grid { display:grid; grid-template-columns: 1fr 360px; gap:20px; padding:18px; }
+.card { background: rgba(255,255,255,0.85); border-radius:12px; padding:16px; box-shadow: 0 6px 18px rgba(2,6,23,0.06); }
+.login-wrap { display:flex; height:100vh; align-items:center; justify-content:center; }
+.login-card { width:360px; text-align:center; padding:28px; }
+.login-card input { display:block; width:100%; padding:10px; margin:8px 0; border-radius:10px; border:1px solid #e6eef4; }
+.btn { background:#10b981; color:white; border:none; padding:8px 12px; border-radius:10px; cursor:pointer; }
+.btn.muted { background:#cbd5e1; color:#0f172a; }
+.row { display:flex; gap:8px; justify-content:center; margin-top:10px; }
